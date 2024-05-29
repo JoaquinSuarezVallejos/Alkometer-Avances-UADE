@@ -118,13 +118,14 @@ header {
 
 .navbar .all-links .project {
   background: white;
-  padding: 10px 20px;
   border-radius: 5px;
   display: inline-block;
+  flex-shrink: 0;
 }
 
 .navbar .all-links .project a {
   color: #722F37;
+  padding: 10px 20px;
 }
 
 .navbar .all-links .project a::after {
@@ -295,7 +296,7 @@ footer img {
   object-fit: cover;
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 900px) {
   .navbar .all-links {
     position: fixed;
     left: -100%;
@@ -313,6 +314,7 @@ footer img {
 
   .navbar .all-links li {
     font-size: 18px;
+    margin: 20px;
   }
 
   .navbar #hamburger-btn {
