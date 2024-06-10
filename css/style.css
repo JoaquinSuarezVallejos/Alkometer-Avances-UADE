@@ -90,7 +90,7 @@ header {
       color: white;
       font-size: 24px;
 
-      @media (max-width: 1150px) {
+      @media (max-width: 1250px) {
         display: block;
         z-index: 1000;
       }
@@ -109,7 +109,7 @@ header {
       flex-shrink: 0;
       transition: opacity 0.25s ease-in-out;
 
-      @media (max-width: 1150px) {
+      @media (max-width: 1250px) {
         position: absolute;
         width: 100vw;
         height: 100vh;
@@ -135,7 +135,7 @@ header {
         display: flex;
         gap: 12px;
 
-        @media (max-width: 1150px) {
+        @media (max-width: 1250px) {
           flex-direction: column;
           align-items: center;
           gap: 32px;
@@ -186,7 +186,7 @@ header {
         a {
           color: black;
 
-          @media (max-width: 1150px) {
+          @media (max-width: 1250px) {
             color: white;
           }
         }
@@ -195,7 +195,7 @@ header {
         a:hover {
           border-color: black;
 
-          @media (max-width: 1150px) {
+          @media (max-width: 1250px) {
             border-color: white;
           }
         }
@@ -268,6 +268,16 @@ header {
 }
 .social a:last-of-type {
   margin-right: 0;
+}
+.footer{
+  background-color: #e3e3e3;
+  border-radius: 2px;
+}
+.logo_UADE{
+  width: 5%;
+  margin-left: 20px;
+  margin-bottom: -5px;
+  filter: invert();
 }
 .footerlinks a {
   float: left;
