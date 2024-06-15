@@ -124,6 +124,7 @@
 	.fs_55	{font-size:55px;}
 	.fs_50	{font-size:50px;}
 	.fs_48	{font-size:48px;}
+	.fs_46 	{font-size:46px;}
 	.fs_45	{font-size:45px;}
 	.fs_42	{font-size:42px;}
 	.fs_40	{font-size:40px;}
@@ -2283,6 +2284,7 @@
 	.pl_150_mobile			{padding-left: 150px !important;}
 	.pl_175_mobile			{padding-left: 175px !important;}
 	.pl_200_mobile			{padding-left: 200px !important;}
+	.pr_0_mobile 			{padding-right: 0 !important;}
 	.pr_5_mobile			{padding-right: 5px !important;}
 	.pr_10_mobile			{padding-right: 10px !important;}
 	.pr_15_mobile			{padding-right: 15px !important;}
