@@ -1,62 +1,109 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
+<html lang="es" dir="ltr" class="rootsize">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alkometer - Inicio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/x-icon" href="images/favicon.png">
-    <!-- Fontawesome CDN Link for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-</head>
+	<!-- Head -->
+	<head>
+		<!-- Meta -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                <a href="#">Alko
-                    <span class="logo_letter1">m</span>
-                    <span class="logo_letter2">e</span>
-                    <span class="logo_letter3">t</span>
-                    <span class="logo_letter4">e</span>
-                    <span class="logo_letter5">r</span>
-                </a>
-            </div>
-            <input type="checkbox" id="menu-toggler">
-            <label for="menu-toggler" id="hamburger-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
-                    <path d="M0 0h24v24H0z" fill="none" />
-                    <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z" />
-                </svg>
-            </label>
-            <ul class="all-links">
-                <li><a href="." class="active">Inicio</a></li>
-                <li><a href="integrantes.html">Integrantes</a></li>
-                <li><a href="proyecto.html">Proyecto</a></li>
-                <li><a href="#">Avances</a></li>
-                <li class="project"><a href="https://joaquinsuarezvallejos.github.io/Alkometer/" target="_blank">Ir al proyecto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="hero"></section>
-    <article>
-        <section id="about">
-            <h2>Datos del equipo</h2>
-            <div class="card" id="group-card">
-                <ul>
-                    <li><b>Número de equipo:</b> 3</li>
-                    <li><b>Curso:</b> 465129 - Diseño y Desarrollo Web</li>
-                    <li><b>Proyecto:</b> Alkometer</li>
-                </ul>
-                <img id="card-uade-logo" src="images/uade.webp" alt="UADE Logo">
-            </div>
-        </section>
-    </article>
-    <footer>
-        <span>Alkometer</span>
-        <img src="images/uade.webp" alt="UADE Logo">
-    </footer>
-</body>
+		<!-- Title and Favicon -->
+		<title>Alkometer - Inicio</title>
+		<link rel="icon" type="image/png" href="images/favicon.png">
 
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="fonts/fa/css/all.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style-global-blocks.css">
+		<link rel="stylesheet" href="css/style-global.css">
+		<link rel="stylesheet" href="css/style-responsive.css">
+
+		<!-- JS -->
+		<script src="js/jquery.js"></script>
+	</head>
+
+	<!-- Body -->
+	<body>
+		<header>
+			<div id="header-content">
+				<a id="header-logo">
+					<div id="isotype"></div>
+					<div id="logo"></div>
+				</a>
+				<a href="javascript:void(0)" id="header-menu-toggle"><i class="fa-solid"></i></a>
+				<nav id="headnav">
+					<ul>
+						<li class="active"><a href=".">Inicio</a></li>
+						<li><a href="integrantes.html">Integrantes</a></li>
+						<li><a href="proyecto.html">Proyecto</a></li>
+						<li><a href="avances.html">Avances</a></li>
+						<li><a href="sitio_web.html">Sitio Web</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main class="screen w_100 ml_auto mr_auto">
+
+			<!-- Banner -->
+			<section class="banner f_l_w_100 pt_200 pb_200 aspectratio_16_10 dflex flex_wrap jc_c ai_c pt_150_tablet pb_125_tablet" id="home">
+				<div class="container pl_60 pr_60">
+					<div class="text">
+						<h1 class="w_auto text-overlay fs_45 f_900 text_white text_center ml_15 mr_15 fs_40_tablet fs_32_mobile">El único alcoholímetro que no juzga y no multa... tampoco quiere tu auto, sólo tu bienestar.</h1>
+					</div>
+				</div>
+			</section>
+			
+			<!-- Page Divider 1 -->
+			<div>
+				<img src="images/page_divider.png" alt="" class="w_40 w_55_tablet w_75_mobile dflex ml_auto mr_auto pt_40"/>
+			</div>
+
+			<!-- Inicio -->
+			<section class="title_line_color f_l_w_100" id="inicio">
+				<div class="container">
+					<div class="contentblock f_l_w_100 dflex flex_wrap jc_sb ai_c pt_40">
+						<div class="text f_r w_100 pl_0 w_100_tablet pl_0_tablet">
+							<h2 class="text_center fs_46 fs_40_mobile smallborder after lrb pb_40 mb_45">INICIO</h2>
+							<div class="card_inicio w_60 w_70_tablet w_100_mobile">
+								<ul class="fs_22 text_center ml_10 mr_10 lh_200 fs_20_tablet">
+									<li><b>Número de grupo:</b> 3</li>
+									<li><b>Nombre del grupo:</b> Alkometer</li>
+									<li><b>Curso:</b> 465129</li>
+									<li><b>Materia:</b> Diseño y Desarrollo Web</li>
+									<li><b>Docente:</b> Patricia Litovicius</li>
+									<li><b>Carrera:</b> Lic. en Gestión de Tecnología de la Información</li>
+								</ul>
+								<img src="images/logo_UADE.webp" alt="Logo de UADE" class="logo_UADE img_fit w_20 w_30_tablet w_40_mobile"/>
+							</div>
+						</div>
+
+						<!-- <div class="controlAlcoholemia1 aligncenter mb_50">
+							<img src="images/controlAlcoholemia1.jpg" alt="" class="img_basic img_fit"/>
+						</div> -->
+					</div>
+				</div>
+			</section>
+			
+			<!-- Footer -->
+			<footer class="footer f_l_w_100 mt_60 pt_25 pb_25">
+				<div class="container">
+					<div class="copyright text_center aligncenter fs_20 fs_18_mobile f_500">&copy; 
+						<span id="year"></span> <a class="border_none"> - Alkometer</a> 
+						<span class="f_300"> | Todos los derechos reservados </span>
+						<!-- <img src="images/logo_UADE.webp" alt="Logo de UADE"> -->
+					</div>
+				</div>
+			</footer>
+		</main>
+
+		<!-- JS -->
+		<script src="js/js-global-blocks.js"></script>
+		<script src="js/navjs.js"></script>
+	</body>
 </html>

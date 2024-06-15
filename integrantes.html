@@ -1,98 +1,136 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
+<html lang="es" dir="ltr" class="rootsize">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alkometer - Integrantes</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/integrantes.css">
-    <link rel="icon" type="image/x-icon" href="images/favicon.png">
-    <!-- Fontawesome CDN Link for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-</head>
+	<!-- Head -->
+	<head>
+		<!-- Meta -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                <a href="#">Alko
-                    <span class="logo_letter1">m</span>
-                    <span class="logo_letter2">e</span>
-                    <span class="logo_letter3">t</span>
-                    <span class="logo_letter4">e</span>
-                    <span class="logo_letter5">r</span>
-                </a>
-            </div>
-            <input type="checkbox" id="menu-toggler">
-            <label for="menu-toggler" id="hamburger-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
-                    <path d="M0 0h24v24H0z" fill="none" />
-                    <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z" />
-                </svg>
-            </label>
-            <ul class="all-links">
-                <li><a href=".">Inicio</a></li>
-                <li><a href="integrantes.html" class="active">Integrantes</a></li>
-                <li><a href="proyecto.html">Proyecto</a></li>
-                <li><a href="#">Avances</a></li>
-                <li class="project"><a href="https://joaquinsuarezvallejos.github.io/Alkometer/" target="_blank">Ir al proyecto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="hero"></section>
-    <article>
-        <section id="members">
-            <h2>Integrantes</h2>
-            <div class="cards">
-                <div class="card">
-                    <img src="images/tomas-bravo.jpeg"
-                        alt="Foto de Tomás Bravo" />
-                    <div class="card-info">
-                        <h3>Tomás Bravo</h3>
-                        <a href="https://bravoto.github.io/Ficha-personal-parcial1/" target="_blank">
-                            Ficha personal
-                        </a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/tomas-bruno.jpeg"
-                        alt="Foto de Tomás Bruno" />
-                    <div class="card-info">
-                        <h3>Tomás Bruno</h3>
-                        <a href="https://tomardo04.github.io/dydw-ficha/" target="_blank">
-                            Ficha personal
-                        </a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/joaquin-suarez-vallejos.jpeg"
-                        alt="Foto de Joaquín Suárez Vallejos" />
-                    <div class="card-info">
-                        <h3>Joaquín Suárez Vallejos</h3>
-                        <a href="https://joaquinsuarezvallejos.github.io/PrimerParcial-JoaquinSuarezVallejos-DesarrolloWeb/"
-                            target="_blank">
-                            Ficha personal
-                        </a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="images/brian-valente.jpg"
-                        alt="Foto de Brian Valente" />
-                    <div class="card-info">
-                        <h3>Brian Valente</h3>
-                        <a href="https://brianvalente.github.io/uade-dydw-parcial-1/" target="_blank">
-                            Ficha personal
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </article>
-    <footer>
-        <span>Alkometer</span>
-        <img src="images/uade.webp" alt="UADE Logo">
-    </footer>
-</body>
+		<!-- Title and Favicon -->
+		<title>Alkometer - Integrantes</title>
+		<link rel="icon" type="image/png" href="images/favicon.png">
 
+		<!-- Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="fonts/fa/css/all.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style-global-blocks.css">
+		<link rel="stylesheet" href="css/style-global.css">
+		<link rel="stylesheet" href="css/style-responsive.css">
+
+		<!-- JS -->
+		<script src="js/jquery.js"></script>
+	</head>
+
+	<!-- Body -->
+	<body>
+		<header>
+			<div id="header-content">
+				<a id="header-logo">
+					<div id="isotype"></div>
+					<div id="logo"></div>
+				</a>
+				<a href="javascript:void(0)" id="header-menu-toggle"><i class="fa-solid"></i></a>
+				<nav id="headnav">
+					<ul>
+						<li><a href=".">Inicio</a></li>
+						<li class="active"><a href="integrantes.html">Integrantes</a></li>
+						<li><a href="proyecto.html">Proyecto</a></li>
+						<li><a href="avances.html">Avances</a></li>
+						<li><a href="sitio_web.html">Sitio Web</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main class="screen w_100 ml_auto mr_auto">
+
+			<!-- Banner -->
+			<section class="banner f_l_w_100 pt_200 pb_200 aspectratio_16_10 dflex flex_wrap jc_c ai_c pt_150_tablet pb_125_tablet" id="home">
+				<div class="container pl_60 pr_60">
+					<div class="text">
+						<h1 class="w_auto text-overlay fs_45 f_900 text_white text_center ml_15 mr_15 fs_40_tablet fs_32_mobile">El único alcoholímetro que no juzga y no multa... tampoco quiere tu auto, sólo tu bienestar.</h1>
+					</div>
+				</div>
+			</section>
+			
+			<!-- Page Divider -->
+			<div>
+				<img src="images/page_divider.png" alt="" class="w_40 w_55_tablet w_75_mobile dflex ml_auto mr_auto pt_40"/>
+			</div>
+
+			<!-- Integrantes -->
+			<section class="title_line_color f_l_w_100" id="">
+				<div class="container">
+					<div class="contentblock f_l_w_100 dflex flex_wrap jc_sb ai_c pt_40">
+						<div class="text f_r w_100 pl_0 w_100_tablet pl_0_tablet">
+							<h2 class="text_center fs_46 fs_40_mobile smallborder after lrb pb_40 mb_45">INTEGRANTES</h2>
+							<article>
+								<section class="member_cards_section" id="">
+									<div class="member_cards">
+										<div class="card">
+											<img src="images/tomas-bravo.jpeg" alt="Foto de Tomás Bravo">
+											<div class="card-info">
+												<h3>Tomás Bravo</h3>
+												<a href="https://bravoto.github.io/Ficha-personal-parcial1/" target="_blank">
+													Ficha personal
+												</a>
+											</div>
+										</div>
+										<div class="card">
+											<img src="images/tomas-bruno.jpeg" alt="Foto de Tomás Bruno">
+											<div class="card-info">
+												<h3>Tomás Bruno</h3>
+												<a href="https://tomardo04.github.io/dydw-ficha/" target="_blank">
+													Ficha personal
+												</a>
+											</div>
+										</div>
+										<div class="card">
+											<img src="images/joaquin-suarez-vallejos.jpeg" alt="Foto de Joaquín Suárez Vallejos">
+											<div class="card-info">
+												<h3>Joaquín Suárez Vallejos</h3>
+												<a href="https://joaquinsuarezvallejos.github.io/PrimerParcial-JoaquinSuarezVallejos-DesarrolloWeb/" target="_blank">
+													Ficha personal
+												</a>
+											</div>
+										</div>
+										<div class="card">
+											<img src="images/brian-valente.jpg" alt="Foto de Brian Valente">
+											<div class="card-info">
+												<h3>Brian Valente</h3>
+												<a href="https://brianvalente.github.io/uade-dydw-parcial-1/" target="_blank">
+													Ficha personal
+												</a>
+											</div>
+										</div>
+									</div>
+								</section>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Footer -->
+			<footer class="footer f_l_w_100 mt_40 pt_25 pb_25">
+				<div class="container">
+					<div class="copyright text_center aligncenter fs_20 fs_18_mobile f_500">&copy; 
+						<span id="year"></span> <a class="border_none"> - Alkometer</a> 
+						<span class="f_300"> | Todos los derechos reservados </span>
+						<!-- <img src="images/logo_UADE.webp" alt="Logo de UADE"> -->
+					</div>
+				</div>
+			</footer>
+		</main>
+
+		<!-- JS -->
+		<script src="js/js-global-blocks.js"></script>
+		<script src="js/navjs.js"></script>
+    </body>
 </html>
