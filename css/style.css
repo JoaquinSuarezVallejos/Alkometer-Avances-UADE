@@ -430,6 +430,11 @@ header {
   display: flex;
   margin: 0 auto;
 }
+.arbol_sitio{
+  display: flex;
+  margin: 0 auto;
+  padding-top: 15px;
+}
 
 /* Footer */
 footer {
