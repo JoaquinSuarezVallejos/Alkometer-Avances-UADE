@@ -175,23 +175,7 @@ section {
 }
 
 @media (max-width: 640px) {
-  .contactform.style1 form input[type="text"],
-  .contactform.style1 form input[type="email"],
-  .contactform.style1 form select,
-  .contactform.style1 form textarea {
-    height: 42px;
-    padding: 0 0 0 15px;
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  .contactform.style1 form .half {
-    width: 100% !important;
-  }
-  .contactform.style1 form textarea {
-    height: 120px;
-  }
-  .contactform.style1 form button {
-    padding: 15px 20px;
-    font-size: 15px;
+  .color-box{
+    
   }
 }
