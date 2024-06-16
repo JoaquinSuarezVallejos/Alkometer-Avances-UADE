@@ -18,13 +18,13 @@ function headerfixed() {
 window.onscroll = headerfixed;
 
 // JQUERY
-$(document).ready(function () {
-  $('#contact-form').on('submit', (e) => {
-    e.preventDefault();
-    let name = $('[name="name"]').val();
-    let message = $('[name="message"]').val();
-    let finalMessage = `¡Hola! Soy ${name}. ${message}`;
-    let url = `https://wa.me/5491126438752?text=${finalMessage}`;
-    window.open(url, '_blank');
-  });
-});
+// $(document).ready(function () {
+//   $('#contact-form').on('submit', (e) => {
+//     e.preventDefault();
+//     let name = $('[name="name"]').val();
+//     let message = $('[name="message"]').val();
+//     let finalMessage = `¡Hola! Soy ${name}. ${message}`;
+//     let url = `https://wa.me/5491126438752?text=${finalMessage}`;
+//     window.open(url, '_blank');
+//   });
+// });
