@@ -374,12 +374,15 @@ header {
   color: #000;
   border-bottom: 1px solid #000;
 }
-
 .logo_UADE{
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 0 10px;
   filter: invert();
+}
+.logoAlkometer{
+  display: flex;
+  margin: 0 auto;
 }
 
 /* Footer */
