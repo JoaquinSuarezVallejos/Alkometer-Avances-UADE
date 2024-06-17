@@ -266,6 +266,9 @@ header {
   display: flex;
   margin: 0 auto;
   border-radius: 20px;
+  aspect-ratio: calc(16/9);
+  width: 100%;
+  max-width: 600px;
 }
 .card_inicio {
   margin: 0 auto;
