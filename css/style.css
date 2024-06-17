@@ -262,6 +262,11 @@ header {
   text-decoration-thickness: 4px;
   text-underline-offset: 6px;
 }
+.iframe_YouTube{
+  display: flex;
+  margin: 0 auto;
+  border-radius: 20px;
+}
 .card_inicio {
   margin: 0 auto;
   background: #f4bd7a;
